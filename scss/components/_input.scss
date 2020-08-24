@@ -1,0 +1,12 @@
+.barcontainer{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    #search{
+        height: 35px;
+        width: 40%;
+        margin: 1.5em;
+        border-radius: 3px;
+        font-size: larger;
+    } 
+}

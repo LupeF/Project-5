@@ -1,27 +1,3 @@
-body {
-  margin: auto;
-  max-width: 1000px;
-  width: 90%;
-}
-
-img {
-  height: 200px;
-  width: 200px;
-}
-
-.barcontainer {
-  width: 90%;
-  display: flex;
-  justify-content: center;
-}
-.barcontainer #search {
-  height: 35px;
-  width: 40%;
-  margin: 1.5em;
-  border-radius: 3px;
-  font-size: larger;
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
