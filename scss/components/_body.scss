@@ -1,5 +1,17 @@
-body{
-    margin: auto;
-    max-width: 1000px;
-    width: 90%;
+body {
+    @include height-width($width: 90%);
+    @include bdystyle;
+    font-family: $font;
+}
+
+.flex{
+    @include flexy;
+}
+
+.header{
+    @include flexy;
+    h1{
+        font-size: 3em;
+        text-shadow: 2px 3px 2px black;
+    }
 }

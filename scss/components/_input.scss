@@ -1,12 +1,7 @@
 .barcontainer{
-    width: 90%;
-    display: flex;
-    justify-content: center;
+    @include flexy;
     #search{
-        height: 35px;
-        width: 40%;
-        margin: 1.5em;
-        border-radius: 3px;
-        font-size: larger;
+        @include height-width($height:50px, $width:40%);
+        @include srchbar;
     } 
 }

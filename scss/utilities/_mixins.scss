@@ -1,0 +1,43 @@
+
+// Body, img, inupt 
+@mixin flexy {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin bdystyle {
+    background-color: $bckgcolor;
+    max-width: 1000px;
+    margin: auto;
+    color: $color;
+}
+
+@mixin height-width($height:null, $width:null){
+    height:$height;
+    width:$width;
+}
+
+//===== input =======//
+@mixin srchbar {
+    margin: 1.5em;
+    border-radius: 5px;
+    font-size: larger;
+    outline: none;
+    box-shadow: 2px 3px 2px black;
+    &:focus{
+        transform: scale(1.3);
+    }
+    
+
+
+}
+
+
+//===== grid ========//
+@mixin grid {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+    grid-template-rows: repeat(3, 300px);
+    grid-gap: 15px; 
+}
