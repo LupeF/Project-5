@@ -5,7 +5,7 @@
 baguetteBox.run('.gallery');
 
 
-search
+//search
 document.querySelector('#search').addEventListener('keyup',function(){
 
     const input = document.querySelector('#search').value.toLowerCase();
