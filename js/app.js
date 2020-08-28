@@ -18,7 +18,9 @@ document.querySelector('#search').addEventListener('keyup',function(){
         if (captions.includes(input)){
             $(document.querySelectorAll('a')[i]).show();
         //hide picture
-        }else
+        }else{
             $(document.querySelectorAll('a')[i]).hide();
+        }
+            
     }
 });
