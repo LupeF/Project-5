@@ -1,3 +1,7 @@
+* {
+  -webkit-appearance: none;
+}
+
 body {
   width: 90%;
   background-color: #006b80;

@@ -1,3 +1,7 @@
+*{
+    -webkit-appearance: none;
+}
+
 body {
     @include height-width($width: 90%);
     @include bdystyle;
